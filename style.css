@@ -59,10 +59,18 @@
 }
 
 .navbar {
-	margin-left: 15px;
+	margin-left: 125px;
 }
 
 .nav-a {
+	display: inline-flex;
+	justify-content: flex-start;
+	text-decoration: none;
+	font-size: 14px;
+	color: #7E7E7E;
+}
+
+.nav-a-1 {
 	display: inline-flex;
 	justify-content: flex-start;
 	text-decoration: none;
@@ -132,13 +140,15 @@
 }
 
 .article-1-grid {
+	width: 98%;
+	margin-left: 10px;
 	height: 415px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	border: 3px solid red;
-	margin-top: 115px;
+	/*margin-top: 115px;*/
 	grid-gap: 10px;
+	justify-content: center;
 }
 
 .div-grid-1 {
@@ -178,27 +188,48 @@ padding:10px 15px;
 	background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	
 }
 
-.div-grid-3-title {
-
+.div-grid-3-p {
+color: white;
+width: 80px;
+margin-top: 20px;
+margin-left: 10px;
 }
 
 .div-grid-3-artist {
-	margin: 20px 15px;
+	margin: 15px 15px;
 	font-size: 14px;
+	color: #9A9A9A;
 }
+
+.div-grid-3-artist a {
+	text-decoration: none;
+	color: #9A9A9A;
+	cursor: pointer; 
+}
+
+.div-grid-3-artist a:hover {
+	color: white;
+}
+
 
 .div-grid-3-container {
 	font-size: 25px;
 	color: white;
-	margin: 5px 10px;
-	font-weight: bold;
+font-weight: bold;
+	margin-left: 10px;
 }
 
 .div-grid-1-date {
 float: right;
 margin: 15px 20px;
+color: white;
 }
 
 .main0title {
@@ -227,20 +258,255 @@ margin: 15px 20px;
 	color: #9A9A9A;
 }
 
-@media (max-width: 750px) {
+.grid-article-2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin: 100px 50px;
+	justify-content: center;
+}
+
+.div-g-1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.div-g-2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.div-g-3 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.div-g-4 {
+	grid-column: 4/5;
+	grid-row: 1/2;
+}
+
+.div-g-5 {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.div-g-6 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.div-g-7 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.div-g-8 {
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+
+.slike {
+	width: 270px;
+	height: 135px;
+	cursor: pointer;
+}
+
+.main {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.main:hover {
+	color: #FF4422;
+	text-decoration: underline;
+}
+
+.main-little {
+	font-size: 13px;
+	color: #777777;
+	margin-top: 5px;
+
+}
+
+
+@media (max-width: 1900px) {
+	.article-1-grid {
+		margin-top: 112px;
+	}
+
+	.tnw-logo {
+		display: none;
+	}
+
+	.navbar {
+		margin: auto 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.black-container {
+		width: 100%;
+		position: fixed;
+		height: 30px;
+		
+	}
+
+	.left-container-li {
+		font-size: 11px;
+	}
+
+	.right-container-li {
+		font-size: 11px;
+	}
+
+	.nav-container {
+		height: 40px;
+		border: 1px solid black;
+		margin-bottom: 15px;
+	}
+	
+	.nav-div button {
+		display: none;
+	}
+	.tnw-logo {
+	        width: 30px;
+	        height: 30px;
+	       float: left;
+           }
+
+	.nav-a-1 {
+		display: none;
+	}
+
+	.icon-fa {
+		width: 20px;
+	}
+
+	.fa-search {
+		margin-left: 20px;
+		width: 10px;
+	}
+
+	.yellow-div {
+		width: 100%;
+		height: 45px;
+		align-items: center;
+		border: 1px solid black;
+	}
+        .yellow-div a {
+			font-size: 15px;
+			display: inline-block;
+			justify-content: flex-start;
+			margin: 4px 10%;
+
+		}
+		.nav-div img{
+		  visibility: hidden;
+		}
+
+		.nav-div p {
+			display: none;
+		}
+
 	.div-little-text {
-		margin-top: -40px;
 		position: absolute;
 		bottom: 0;
 		right: 0;
+	}
+	.tnw {
+		display: none;
+	}
+			.TNW {
+			display: none;
+			}
+
+			.article-1-grid {
+				width: 98%;
+			margin-top: 105px;
+			grid-gap: 5px;
 
 			}
-			.TNW {
-				position: relative;
+
+			.div-grid-1-date {
+				display: none;
 			}
 
 			.div-grid-1 {
-				position: relative;
+				background-size: 100% 100%;
+				display: flex;
+
 			}
+
+			.div-grid-2 {
+			background-size: 100% 100%;	
+			}
+
+			.div-grid-2-p {
+				margin-bottom: 220px;
+				font-size: 20px;
+			}
+
+			.main0title {
+				text-align: left;
+				font-size: 15px;
+			}
+
+			.grid-article-2 {
+				width: 100%;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: repeat(3, 1fr);
+			}
+
+			.div-g-1 {
+				grid-column: 1/2;
+				grid-row: 1/2;
+			}
+
+			.div-g-2 {
+				grid-column: 2/3;
+				grid-row: 1/2;
+			}
+
+			.div-g-3 {
+				grid-column: 3/4;
+				grid-row: 1/2;
+			}
+
+			.div-g-4 {
+				grid-column: 1/2;
+				grid-row: 2/3;
+			}
+
+			.div-g-5 {
+				grid-column: 2/3;
+				grid-row: 2/3;
+			}
+
+			.div-g-6 {
+				grid-column: 3/4;
+				grid-row: 2/3;
+			}
+
+			.div-g-7 {
+				grid-column: 1/2;
+				grid-row: 3/4;
+			}
+
+			.div-g-8 {
+				grid-column: 2/3;
+				grid-row: 3/4;
+			}
+              
+              .slike {
+              	width: 200px;
+              	height: 200px:;              }
+
+
+
+
 }
 
