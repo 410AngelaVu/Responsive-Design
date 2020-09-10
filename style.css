@@ -652,3 +652,140 @@ a {
     margin: 5px 5px;
   }
 }
+
+/***************SECTIONS***************/
+.article-preview {
+  position: relative;
+}
+
+.most-popular {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 7px;
+}
+
+.section header {
+  z-index: 1;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.latest {
+  background-color: rgb(233, 211, 204);
+  position: relative;
+  height: 96px;
+}
+
+.latest-txt {
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.latest-txt h5 {
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+.latest-img {
+  position: absolute;
+  right: 0;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.section-headlines ul li h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: rgba(8, 8, 8, 0.164) solid 1px;
+}
+
+.section-headlines ul li h4 a {
+  color: #555;
+  font-weight: 100;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.bullet {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1025px) {
+  .all-sections-container {
+    max-width: 1192px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sections-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sections-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+
+  .sections-container {
+    display: block;
+  }
+}
