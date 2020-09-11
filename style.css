@@ -320,7 +320,6 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     grid-auto-rows: 1fr;
@@ -341,7 +340,6 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     color: white;
@@ -361,7 +359,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+  
     flex-direction: column;
     justify-content: flex-end;
     grid-auto-rows: 1fr;
@@ -453,7 +451,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+  
     justify-content: flex-end;
     align-items: flex-end;
     grid-auto-rows: 1fr;
@@ -473,7 +471,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+   
     justify-content: flex-end;
     align-items: flex-end;
     color: white;
@@ -487,7 +485,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+    
     flex-direction: column;
     justify-content: flex-end;
     grid-auto-rows: 1fr;
@@ -602,7 +600,6 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin: 5px 5px;
@@ -646,7 +643,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+   
     justify-content: flex-start;
     align-items: flex-end;
     color: white;
@@ -665,7 +662,7 @@ a {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
+  
     flex-direction: column;
     justify-content: flex-end;
     margin: 5px 5px;
