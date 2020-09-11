@@ -201,12 +201,14 @@ a {
   .section-2 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1360px;
+   width: 70%;
+   margin: 20px 30px;
   }
 
   .grid-article-2 {
-    width: 700px;
-    margin: 70px 50px;
+    width: 50%;
+   margin-right: auto;
+   margin-left: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -262,7 +264,7 @@ a {
   }
 
   .slike {
-    width: 300px;
+    width: 100%;
     height: 150px;
   }
 
@@ -277,7 +279,7 @@ a {
     margin-top: 10px;
   }
   .article-1-grid {
-    width: 99%;
+    width: 100%;
     height: 400px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -502,6 +504,7 @@ a {
   }
 
   .grid-article-2 {
+
     margin: 60px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
