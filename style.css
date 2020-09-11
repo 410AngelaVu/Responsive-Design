@@ -206,41 +206,49 @@ a {
   .div-g-1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-2 {
     grid-column: 2/3;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-3 {
     grid-column: 3/4;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-4 {
     grid-column: 4/5;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-5 {
     grid-column: 1/2;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-6 {
     grid-column: 2/3;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-7 {
     grid-column: 3/4;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-8 {
     grid-column: 4/5;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .slike {
@@ -259,14 +267,13 @@ a {
     margin-top: 10px;
   }
   .article-1-grid {
+    width: 1330px;
     height: 400px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5px;
-    margin-top: 114px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 114px 10px;
   }
   .div-grid-1-date {
     position: absolute;
@@ -282,6 +289,7 @@ a {
 
   .litlle-p {
     color: #9a9a9a;
+    margin: 20px 10px;
   }
 
   .litlle-p a {
@@ -303,13 +311,15 @@ a {
     justify-content: flex-end;
     align-items: flex-end;
     grid-auto-rows: 1fr;
+    cursor: pointer;
   }
 
   .main0title {
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     text-align: left;
+    margin: 20px 10px;
   }
 
   .div-grid-2 {
@@ -323,6 +333,13 @@ a {
     align-items: flex-end;
     color: white;
     grid-auto-rows: 1fr;
+    cursor: pointer;
+  }
+
+  .div-grid-2-p p {
+    font-size: 25px;
+    margin: 10px 10px;
+    font-weight: bold;
   }
 
   .div-grid-3 {
@@ -335,10 +352,38 @@ a {
     flex-direction: column;
     justify-content: flex-end;
     grid-auto-rows: 1fr;
+    cursor: pointer;
   }
 
   .div-grid-2-p {
     margin: 5px 2px;
+  }
+
+  .div-grid-3-p {
+    color: white;
+    margin: 10px 10px;
+  }
+
+  .grid-3-p {
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .div-grid-3-artist {
+    color: #9a9a9a;
+    font-size: 15px;
+    margin: 10px 10px;
+  }
+
+  .div-grid-3-artist a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .div-grid-3-artist a:hover {
+    color: white;
   }
 
   .l-h4 {
@@ -347,6 +392,11 @@ a {
     font-weight: bold;
     margin-left: 50px;
     color: #ff0000;
+    cursor: pointer;
+  }
+
+  .l-h4:hover {
+    color: black;
   }
 }
 
@@ -394,6 +444,7 @@ a {
     justify-content: flex-end;
     align-items: flex-end;
     grid-auto-rows: 1fr;
+    cursor: pointer;
   }
 
   .main0title {
@@ -414,6 +465,7 @@ a {
     align-items: flex-end;
     color: white;
     grid-auto-rows: 1fr;
+    cursor: pointer;
   }
 
   .div-grid-3 {
@@ -426,6 +478,7 @@ a {
     flex-direction: column;
     justify-content: flex-end;
     grid-auto-rows: 1fr;
+    cursor: pointer;
   }
 
   .div-grid-2-p {
@@ -437,7 +490,7 @@ a {
   }
 
   .grid-article-2 {
-    margin: 60px 10px;
+    margin: 60px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -447,41 +500,49 @@ a {
   .div-g-1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-2 {
     grid-column: 2/3;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-3 {
     grid-column: 3/4;
     grid-row: 1/2;
+    cursor: pointer;
   }
 
   .div-g-4 {
     grid-column: 1/2;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-5 {
     grid-column: 2/3;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-6 {
     grid-column: 3/4;
     grid-row: 2/3;
+    cursor: pointer;
   }
 
   .div-g-7 {
     grid-column: 1/2;
     grid-row: 3/4;
+    cursor: pointer;
   }
 
   .div-g-8 {
     grid-column: 2/3;
     grid-row: 3/4;
+    cursor: pointer;
   }
 
   .slike {
@@ -502,10 +563,11 @@ a {
   }
 
   .l-h4 {
-    margin: 10px 10px;
+    margin: 10px 45px;
 
     color: #ff0000;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .l-h4:hover {
@@ -530,6 +592,7 @@ a {
     justify-content: flex-end;
     align-items: flex-end;
     margin: 5px 5px;
+    cursor: pointer;
   }
 
   .div-grid-1-date {
@@ -556,6 +619,7 @@ a {
   .litlle-p a {
     color: #9a9a9a;
     text-decoration: none;
+    cursor: pointer;
   }
 
   .litlle-p a:hover {
@@ -574,6 +638,7 @@ a {
     color: white;
     font-size: 20px;
     margin: 5px 5px;
+    cursor: pointer;
   }
 
   .div-grid-2-p {
@@ -590,6 +655,7 @@ a {
     flex-direction: column;
     justify-content: flex-end;
     margin: 5px 5px;
+    cursor: pointer;
   }
 
   .div-grid-3-p {
@@ -613,6 +679,7 @@ a {
   .div-grid-3-artist a {
     color: #9a9a9a;
     text-decoration: none;
+    cursor: pointer;
   }
 
   .div-grid-3-artist a:hover {
@@ -643,6 +710,7 @@ a {
     color: #ff0000;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
   }
 
   .slike {
