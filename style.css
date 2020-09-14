@@ -443,7 +443,7 @@ header ul li {
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-    border: 1px solid black;
+   
     grid-column: 1/2;
   }
 
@@ -452,7 +452,7 @@ header ul li {
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-    border: 1px solid black; 
+    
     grid-column: 2/3;
   }
 
@@ -461,7 +461,7 @@ header ul li {
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-    border: 1px solid black;
+  
     grid-column: 3/4; 
   }
 
@@ -470,13 +470,13 @@ header ul li {
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-    border: 1px solid black; 
+  
     grid-column: 4/5;
   }
 
 .plus {
   grid-row: 1/2;
-  border: 1px solid black;
+ 
 }
   .f-1 {
    background-color: #FF4422;
@@ -545,24 +545,25 @@ margin-top: 15px;
   }
 
   .l1-div {
-    width: 80%;
+    width: 87%;
  position: absolute;
-  margin: 40px 60px;
-  }
 
-  .l1-h4 {
-    font-size: 30px;
-    font-weight: bold;
-   
-    color: #f00;
-  }
+ margin-top: 80px;
+ margin-left: 70px;
+}
 
-  .l1-h4-p {
-    font-size: 20px;
+.l1-div p {
+  float: right;
     color: #f00;
-float: right;
-margin: 20px 20px;
-  }
+    padding-top: 10px;
+}
+
+.l1-h4 {
+  float: left;
+    color: #f00;
+    font-size: 25px;
+}
+  
 }
 
 @media screen and (min-width: 750px) and (max-width: 1023px) {
@@ -612,7 +613,7 @@ margin: 20px 20px;
   }
 
   .main0title {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     font-weight: bold;
     text-align: left;
@@ -643,10 +644,36 @@ margin: 20px 20px;
 
   .div-grid-2-p {
     margin: 5px 2px;
+    color: white;
   }
+
+  .div-grid-3-container {
+    color: white;
+    font-size: 25px;
+  }
+
+  .low {
+    color: white;
+  }
+
+  .div-grid-3-artist {
+    color: #9a9a9a;
+  }
+ .div-grid-3-artist a {
+  text-decoration: none;
+  color: #9a9a9a; 
+ }
+
+  .div-grid-3-artist a:hover {
+    color: white;
+  } 
+
+
+
 
   .section-2 {
     margin: 40px 10px;
+
   }
 
   .grid-article-2 {
@@ -730,13 +757,13 @@ margin: 20px 20px;
     margin-left: 20px;
   }
 
-  .l1-h4-p {
+  .l1-div p {
       color: #f00;
       font-size: 15px;
       margin: 15px 20px;
   }
 
- .l1-h4-p:hover {
+ .l1-div p:hover {
     color: black;
   }
 
@@ -837,6 +864,7 @@ h3 {
     display: grid;
   grid-template-rows: 35% 10% 30%;
     grid-column: 1/2;
+    border: none;
   }
 
   .funding-2 {
@@ -845,6 +873,7 @@ h3 {
     display: grid;
     grid-template-rows: 35% 10% 30%;
     grid-column: 2/3;
+        border: none;
   }
 
   .funding-3 {
@@ -853,6 +882,7 @@ h3 {
     display: grid;
     grid-template-rows: 35% 10% 30%;
     grid-column: 3/4;
+    border: none;
   }
 
   .jaja {
@@ -1048,7 +1078,7 @@ h3 {
 
   .plus {
   grid-row: 1/2;
-  border: 1px solid black;
+
 }
   .f-1 {
    background-color: #FF4422;
@@ -1118,7 +1148,7 @@ h3 {
     margin: 10px 20px;
   }
 
-.l1-h4-p {
+.l1-div p {
   color:  #f00;
   margin: 10px 20px;
 
