@@ -426,7 +426,7 @@ header ul li {
     color: black;
   }
 
-  
+
        .latest-funding {
    display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -542,6 +542,26 @@ margin-top: 15px;
 
   .plus {
     height: 100px;
+  }
+
+  .l1-div {
+    width: 80%;
+ position: absolute;
+  margin: 40px 60px;
+  }
+
+  .l1-h4 {
+    font-size: 30px;
+    font-weight: bold;
+   
+    color: #f00;
+  }
+
+  .l1-h4-p {
+    font-size: 20px;
+    color: #f00;
+float: right;
+margin: 20px 20px;
   }
 }
 
@@ -703,6 +723,145 @@ margin-top: 15px;
   .l-h4:hover {
     color: black;
   }
+
+  .l1-h4 {
+    color: #f00;
+    font-size: 20px; 
+    margin-left: 20px;
+  }
+
+  .l1-h4-p {
+      color: #f00;
+      font-size: 15px;
+      margin: 15px 20px;
+  }
+
+ .l1-h4-p:hover {
+    color: black;
+  }
+
+  .l1-h4:hover {
+    color: black;
+  }
+
+  .latest-funding {
+    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto 20px;
+  }
+
+ .funding-4 {
+    display: none;
+  }
+
+ .plus {
+  grid-row: 1/2;
+  height: 65px;
+  overflow: auto;
+
+}
+
+h3 {
+  font-size: 15px;
+}
+  .f-1 {
+   background-color: #FF4422;
+  height: 25px;
+
+
+  }
+
+  .f-1 p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+  
+  }
+
+  .f-2 {
+    background-color: #FFEBE7;
+    grid-row: 2/3;
+    text-align: center;
+   
+    height: 55px;
+   
+    
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897E7C;
+
+
+  }
+
+  .f-3 {
+    background-color: #FFFAF8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #FFCDC2;
+
+  }
+
+  .f-3 p {
+    font-size: 11px;
+    color: #897E7C;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+  }
+
+  .f-4 {
+    background-color: #FFFAF8;
+    grid-row: 4/5;
+  }
+
+  .f-4 p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #897E7C;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #C6C4C4; 
+  }
+
+  .funding-1 {
+     width: 200px;
+    height: 200px;
+    display: grid;
+  grid-template-rows: 35% 10% 30%;
+    grid-column: 1/2;
+  }
+
+  .funding-2 {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 2/3;
+  }
+
+  .funding-3 {
+     width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 3/4;
+  }
+
+  .jaja {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -841,6 +1000,131 @@ margin-top: 15px;
     height: 100px;
     margin: 5px 5px;
   }
+
+  .latest-funding {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin: 20px 30px;
+  }
+
+    .funding-1 {
+     width: 90%;
+    height: 400px;
+    display: grid;
+  grid-template-rows: 35% 10% 30%;
+    grid-row: 1/2;
+  }
+
+     .funding-2 {
+     width: 90%;
+    height: 400px;
+    display: grid;
+  grid-template-rows: 35% 10% 30%;
+    grid-row: 2/3;
+  }
+
+       .funding-3 {
+     width: 90%;
+    height: 400px;
+    display: grid;
+  grid-template-rows: 35% 10% 30%;
+    grid-row: 3/4;
+  }
+
+       .funding-4 {
+     width: 90%;
+    height: 400px;
+    display: grid;
+  grid-template-rows: 35% 10% 30%;
+    grid-row: 4/5;
+  }
+
+  .jaja {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 20px 20px;
+  }
+
+  .plus {
+  grid-row: 1/2;
+  border: 1px solid black;
+}
+  .f-1 {
+   background-color: #FF4422;
+    height: 40%;
+
+  }
+
+  .f-1 p {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+   margin-left: 100px;
+padding-top: 20px;
+  }
+
+  .f-2 {
+    background-color: #FFEBE7;
+    grid-row: 2/3;
+    text-align: left;
+    height: 60%;
+}
+
+h3 {
+  margin-left: 100px;
+}
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897E7C;
+    margin-left: 100px;
+    
+  }
+
+  .f-3 {
+    background-color: #FFFAF8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #FFCDC2;
+    height: 60px;
+  }
+
+  .f-3 p {
+    font-size: 13px;
+    color: #897E7C;
+  }
+
+  .f-4 {
+    background-color: #FFFAF8;
+    grid-row: 4/5;
+    height: 20px;
+  }
+
+  .f-4 p {
+
+    font-size: 13px;
+    color: #897E7C;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897E7C; 
+  }
+
+  .l1-h4 {
+    color: #f00;
+    margin: 10px 20px;
+  }
+
+.l1-h4-p {
+  color:  #f00;
+  margin: 10px 20px;
+
+}
+
+
 }
 
 /***************  SECTIONS  ***************/
