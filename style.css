@@ -211,17 +211,23 @@ header ul li {
     display: none;
   }
 
+  .white-navbar .fa-bars {
+    display: none;
+  }
+
   .navbar {
     margin-top: -114px;
   }
 }
 
 /** NEW ARTICLE **/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .section-2 {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    max-width: 1180px;
+    min-width: 900px;
   }
 
   .grid-article-2 {
@@ -421,7 +427,7 @@ header ul li {
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1024px) {
+@media screen and (min-width: 750px) and (max-width: 1023px) {
   .article-1-grid {
     max-width: 100%;
     height: 600px;
@@ -785,9 +791,9 @@ header ul li {
   margin-right: 10px;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .all-sections-container {
-    max-width: 1192px;
+    max-width: 1352px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -810,7 +816,7 @@ header ul li {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .sections-container {
     display: flex;
     width: 90%;
@@ -830,9 +836,6 @@ header ul li {
 }
 
 @media screen and (max-width: 750px) {
-  /* body {
-    background-color: red;
-  } */
 
   .section {
     width: 90%;
@@ -877,18 +880,13 @@ header ul li {
   margin-top: 13px;
 }
 
-.deal img {
-  border-bottom: black solid 1px;
-  border-right: solid black 1px;
-}
-
 .deal-info h4 {
   margin-bottom: 7px;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .lates-deals-container {
-    max-width: 1192px;
+    max-width: 1180px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -929,11 +927,15 @@ header ul li {
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 750px) {
+@media screen and (max-width: 1023px) and (min-width: 750px) {
   .latest-deals {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .second-row-deals .li-div-n {
+    width: 23%;
   }
 
   .first-row-deals {

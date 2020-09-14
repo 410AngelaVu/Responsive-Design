@@ -17,13 +17,13 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Natalia Veronica Macias Ortiz**
 
 - Github: [@NataJenkins](https://github.com/Takhmina175)
 - Twitter: [@NataJenkins](https://twitter.com/NataJenkins)
 - Linkedin: [linkedin Profile](https://www.linkedin.com/in/natalia-macias-a11a20187/)
 
-👤 **Author2**
+👤 **Andjela Vukadinovic**
 
 - GitHub: [@410AngelaVu](https://github.com/410AngelaVu)
 - Twitter: [@twitterhandle](https://twitter.com/AngelaVu)
