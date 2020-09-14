@@ -134,8 +134,8 @@ header ul li {
   margin-right: 17px;
 }
 
-.countdown {
-  color: red !important;
+.right-nav ul .countdown {
+  color: red;
 }
 
 .white-navbar ul li a {
@@ -147,11 +147,11 @@ header ul li {
   height: 10px;
 }
 
-.tickets-btn {
+.right-nav ul .tickets-btn {
   background-color: #0cc;
   padding: 6px;
   border-radius: 5px;
-  color: white !important;
+  color: white;
 }
 
 /* YELLOW NAVBAR */
@@ -426,60 +426,51 @@ header ul li {
     color: black;
   }
 
-
-       .latest-funding {
-   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  .latest-funding {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     width: 90%;
     margin: 10% auto;
-    
   }
 
-
-
-
   .funding-1 {
-    height:  300px;
+    height: 300px;
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-   
     grid-column: 1/2;
   }
 
   .funding-2 {
-   height:  300px;
+    height: 300px;
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-    
     grid-column: 2/3;
   }
 
   .funding-3 {
-    height:  300px;
+    height: 300px;
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-  
-    grid-column: 3/4; 
+    grid-column: 3/4;
   }
 
   .funding-4 {
-     height:  300px;
+    height: 300px;
     width: 90%;
     display: grid;
     grid-template-rows: 35% 10% 30%;
-  
     grid-column: 4/5;
   }
 
-.plus {
-  grid-row: 1/2;
- 
-}
+  .plus {
+    grid-row: 1/2;
+  }
+
   .f-1 {
-   background-color: #FF4422;
+    background-color: #f42;
     height: 40%;
   }
 
@@ -488,56 +479,54 @@ header ul li {
     color: white;
     font-weight: bold;
     align-items: center;
-  
   }
 
   .f-2 {
-    background-color: #FFEBE7;
+    background-color: #ffebe7;
     grid-row: 2/3;
     text-align: center;
     height: 60%;
-    
   }
 
   .f-2 p {
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-3 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 3/4;
     text-align: left;
-    border-bottom: 1px solid #FFCDC2;
+    border-bottom: 1px solid #ffcdc2;
   }
 
   .f-3 p {
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-4 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 4/5;
   }
 
   .f-4 p {
     margin-top: 20px;
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-4 a {
     text-decoration: none;
-    color: #897E7C; 
+    color: #897e7c;
   }
 
   .jaja {
     width: 60px;
     height: 60px;
     position: absolute;
- margin-left: 10px;
-margin-top: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
   }
 
   .plus {
@@ -546,24 +535,22 @@ margin-top: 15px;
 
   .l1-div {
     width: 87%;
- position: absolute;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+  }
 
- margin-top: 80px;
- margin-left: 70px;
-}
-
-.l1-div p {
-  float: right;
+  .l1-div p {
+    float: right;
     color: #f00;
     padding-top: 10px;
-}
+  }
 
-.l1-h4 {
-  float: left;
+  .l1-h4 {
+    float: left;
     color: #f00;
     font-size: 25px;
-}
-  
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1023px) {
@@ -659,21 +646,18 @@ margin-top: 15px;
   .div-grid-3-artist {
     color: #9a9a9a;
   }
- .div-grid-3-artist a {
-  text-decoration: none;
-  color: #9a9a9a; 
- }
+
+  .div-grid-3-artist a {
+    text-decoration: none;
+    color: #9a9a9a;
+  }
 
   .div-grid-3-artist a:hover {
     color: white;
-  } 
-
-
-
+  }
 
   .section-2 {
     margin: 40px 10px;
-
   }
 
   .grid-article-2 {
@@ -753,17 +737,17 @@ margin-top: 15px;
 
   .l1-h4 {
     color: #f00;
-    font-size: 20px; 
+    font-size: 20px;
     margin-left: 20px;
   }
 
   .l1-div p {
-      color: #f00;
-      font-size: 15px;
-      margin: 15px 20px;
+    color: #f00;
+    font-size: 15px;
+    margin: 15px 20px;
   }
 
- .l1-div p:hover {
+  .l1-div p:hover {
     color: black;
   }
 
@@ -779,25 +763,23 @@ margin-top: 15px;
     margin: auto 20px;
   }
 
- .funding-4 {
+  .funding-4 {
     display: none;
   }
 
- .plus {
-  grid-row: 1/2;
-  height: 65px;
-  overflow: auto;
+  .plus {
+    grid-row: 1/2;
+    height: 65px;
+    overflow: auto;
+  }
 
-}
+  h3 {
+    font-size: 15px;
+  }
 
-h3 {
-  font-size: 15px;
-}
   .f-1 {
-   background-color: #FF4422;
-  height: 25px;
-
-
+    background-color: #f42;
+    height: 25px;
   }
 
   .f-1 p {
@@ -806,63 +788,55 @@ h3 {
     font-weight: bold;
     align-items: center;
     margin-left: 10px;
-  
   }
 
   .f-2 {
-    background-color: #FFEBE7;
+    background-color: #ffebe7;
     grid-row: 2/3;
     text-align: center;
-   
     height: 55px;
-   
-    
   }
 
   .f-2 p {
     font-size: 13px;
-    color: #897E7C;
-
-
+    color: #897e7c;
   }
 
   .f-3 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 3/4;
     text-align: left;
-    border-bottom: 1px solid #FFCDC2;
-
+    border-bottom: 1px solid #ffcdc2;
   }
 
   .f-3 p {
     font-size: 11px;
-    color: #897E7C;
+    color: #897e7c;
     margin-bottom: 5px;
     font-weight: bold;
-
   }
 
   .f-4 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 4/5;
   }
 
   .f-4 p {
     margin-top: 10px;
     font-size: 10px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-4 a {
     text-decoration: none;
-    color: #C6C4C4; 
+    color: #c6c4c4;
   }
 
   .funding-1 {
-     width: 200px;
+    width: 200px;
     height: 200px;
     display: grid;
-  grid-template-rows: 35% 10% 30%;
+    grid-template-rows: 35% 10% 30%;
     grid-column: 1/2;
     border: none;
   }
@@ -873,11 +847,11 @@ h3 {
     display: grid;
     grid-template-rows: 35% 10% 30%;
     grid-column: 2/3;
-        border: none;
+    border: none;
   }
 
   .funding-3 {
-     width: 200px;
+    width: 200px;
     height: 200px;
     display: grid;
     grid-template-rows: 35% 10% 30%;
@@ -1037,35 +1011,35 @@ h3 {
     margin: 20px 30px;
   }
 
-    .funding-1 {
-     width: 90%;
+  .funding-1 {
+    width: 90%;
     height: 400px;
     display: grid;
-  grid-template-rows: 35% 10% 30%;
+    grid-template-rows: 35% 10% 30%;
     grid-row: 1/2;
   }
 
-     .funding-2 {
-     width: 90%;
+  .funding-2 {
+    width: 90%;
     height: 400px;
     display: grid;
-  grid-template-rows: 35% 10% 30%;
+    grid-template-rows: 35% 10% 30%;
     grid-row: 2/3;
   }
 
-       .funding-3 {
-     width: 90%;
+  .funding-3 {
+    width: 90%;
     height: 400px;
     display: grid;
-  grid-template-rows: 35% 10% 30%;
+    grid-template-rows: 35% 10% 30%;
     grid-row: 3/4;
   }
 
-       .funding-4 {
-     width: 90%;
+  .funding-4 {
+    width: 90%;
     height: 400px;
     display: grid;
-  grid-template-rows: 35% 10% 30%;
+    grid-template-rows: 35% 10% 30%;
     grid-row: 4/5;
   }
 
@@ -1077,13 +1051,12 @@ h3 {
   }
 
   .plus {
-  grid-row: 1/2;
+    grid-row: 1/2;
+  }
 
-}
   .f-1 {
-   background-color: #FF4422;
+    background-color: #f42;
     height: 40%;
-
   }
 
   .f-1 p {
@@ -1091,56 +1064,54 @@ h3 {
     color: white;
     font-weight: bold;
     align-items: center;
-   margin-left: 100px;
-padding-top: 20px;
+    margin-left: 100px;
+    padding-top: 20px;
   }
 
   .f-2 {
-    background-color: #FFEBE7;
+    background-color: #ffebe7;
     grid-row: 2/3;
     text-align: left;
     height: 60%;
-}
+  }
 
-h3 {
-  margin-left: 100px;
-}
+  h3 {
+    margin-left: 100px;
+  }
 
   .f-2 p {
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
     margin-left: 100px;
-    
   }
 
   .f-3 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 3/4;
     text-align: left;
-    border-bottom: 1px solid #FFCDC2;
+    border-bottom: 1px solid #ffcdc2;
     height: 60px;
   }
 
   .f-3 p {
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-4 {
-    background-color: #FFFAF8;
+    background-color: #fffaf8;
     grid-row: 4/5;
     height: 20px;
   }
 
   .f-4 p {
-
     font-size: 13px;
-    color: #897E7C;
+    color: #897e7c;
   }
 
   .f-4 a {
     text-decoration: none;
-    color: #897E7C; 
+    color: #897e7c;
   }
 
   .l1-h4 {
@@ -1148,13 +1119,10 @@ h3 {
     margin: 10px 20px;
   }
 
-.l1-div p {
-  color:  #f00;
-  margin: 10px 20px;
-
-}
-
-
+  .l1-div p {
+    color: #f00;
+    margin: 10px 20px;
+  }
 }
 
 /***************  SECTIONS  ***************/
@@ -1257,7 +1225,7 @@ h3 {
   }
 
   .section {
-    width: 30%;
+    width: 48%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1265,10 +1233,13 @@ h3 {
   .section .article-preview img {
     width: 100%;
   }
+
+  .last-section-container {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 750px) {
-
   .section {
     width: 90%;
     margin-left: auto;
@@ -1503,9 +1474,18 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #aaa;
+  text-align: center;
 }
 
 .legal-txt {
   justify-content: center;
-  margin: 45px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .icon {
+    font-size: 100%;
+    padding: 15px;
+    margin-left: 10px;
+  }
 }
