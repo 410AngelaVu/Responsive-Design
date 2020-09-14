@@ -562,8 +562,7 @@ header ul li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5px;
-margin-top: 100px;
-
+    margin-top: 100px;
   }
 
   .div-grid-1-date {
@@ -1335,8 +1334,16 @@ margin-top: 100px;
     margin-left: auto;
   }
 
+  .first-row-deals .li-div-n {
+    width: 32%;
+  }
+
   .second-row-deals .li-div-n {
-    width: 23%;
+    width: 32%;
+  }
+
+  .third-row-deals .li-div-n {
+    width: 48.5%;
   }
 
   .first-row-deals {
@@ -1345,18 +1352,17 @@ margin-top: 100px;
     margin-bottom: 12px;
   }
 
-  .first-row-deals li {
-    width: 23%;
-  }
-
   .second-row-deals {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
   }
 
-  .second-row-deals li {
-    width: 23%;
+  .third-row-deals {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
   }
 
   .deal {
