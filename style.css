@@ -425,6 +425,124 @@ header ul li {
   .l-h4:hover {
     color: black;
   }
+
+  
+       .latest-funding {
+   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 10% auto;
+    
+  }
+
+
+
+
+  .funding-1 {
+    height:  300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    border: 1px solid black;
+    grid-column: 1/2;
+  }
+
+  .funding-2 {
+   height:  300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    border: 1px solid black; 
+    grid-column: 2/3;
+  }
+
+  .funding-3 {
+    height:  300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    border: 1px solid black;
+    grid-column: 3/4; 
+  }
+
+  .funding-4 {
+     height:  300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    border: 1px solid black; 
+    grid-column: 4/5;
+  }
+
+.plus {
+  grid-row: 1/2;
+  border: 1px solid black;
+}
+  .f-1 {
+   background-color: #FF4422;
+    height: 40%;
+  }
+
+  .f-1 p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+  
+  }
+
+  .f-2 {
+    background-color: #FFEBE7;
+    grid-row: 2/3;
+    text-align: center;
+    height: 60%;
+    
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897E7C;
+  }
+
+  .f-3 {
+    background-color: #FFFAF8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #FFCDC2;
+  }
+
+  .f-3 p {
+    font-size: 13px;
+    color: #897E7C;
+  }
+
+  .f-4 {
+    background-color: #FFFAF8;
+    grid-row: 4/5;
+  }
+
+  .f-4 p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #897E7C;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897E7C; 
+  }
+
+  .jaja {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+ margin-left: 10px;
+margin-top: 15px;
+  }
+
+  .plus {
+    height: 100px;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1023px) {
