@@ -336,6 +336,17 @@ header ul li {
     text-decoration: none;
   }
 
+  .f-4 p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897e7c;
+  }
+
   .litlle-p a:hover {
     color: white;
   }
@@ -467,6 +478,7 @@ header ul li {
 
   .plus {
     grid-row: 1/2;
+    height: 100px;
   }
 
   .f-1 {
@@ -510,27 +522,12 @@ header ul li {
     grid-row: 4/5;
   }
 
-  .f-4 p {
-    margin-top: 20px;
-    font-size: 13px;
-    color: #897e7c;
-  }
-
-  .f-4 a {
-    text-decoration: none;
-    color: #897e7c;
-  }
-
   .jaja {
     width: 60px;
     height: 60px;
     position: absolute;
     margin-left: 10px;
     margin-top: 15px;
-  }
-
-  .plus {
-    height: 100px;
   }
 
   .l1-div {
@@ -582,6 +579,11 @@ header ul li {
   .litlle-p a {
     color: #9a9a9a;
     text-decoration: none;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #c6c4c4;
   }
 
   .litlle-p a:hover {
@@ -644,11 +646,6 @@ header ul li {
   }
 
   .div-grid-3-artist {
-    color: #9a9a9a;
-  }
-
-  .div-grid-3-artist a {
-    text-decoration: none;
     color: #9a9a9a;
   }
 
@@ -747,6 +744,32 @@ header ul li {
     margin: 15px 20px;
   }
 
+  .f-1 p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-3 p {
+    font-size: 11px;
+    color: #897e7c;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .f-4 p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #897e7c;
+  }
+
   .l1-div p:hover {
     color: black;
   }
@@ -782,24 +805,11 @@ header ul li {
     height: 25px;
   }
 
-  .f-1 p {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    align-items: center;
-    margin-left: 10px;
-  }
-
   .f-2 {
     background-color: #ffebe7;
     grid-row: 2/3;
     text-align: center;
     height: 55px;
-  }
-
-  .f-2 p {
-    font-size: 13px;
-    color: #897e7c;
   }
 
   .f-3 {
@@ -809,27 +819,9 @@ header ul li {
     border-bottom: 1px solid #ffcdc2;
   }
 
-  .f-3 p {
-    font-size: 11px;
-    color: #897e7c;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
   .f-4 {
     background-color: #fffaf8;
     grid-row: 4/5;
-  }
-
-  .f-4 p {
-    margin-top: 10px;
-    font-size: 10px;
-    color: #897e7c;
-  }
-
-  .f-4 a {
-    text-decoration: none;
-    color: #c6c4c4;
   }
 
   .funding-1 {
@@ -915,6 +907,16 @@ header ul li {
   .div-grid-3-artist a {
     color: #9a9a9a;
     text-decoration: none;
+  }
+
+  .f-4 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897e7c;
   }
 
   .litlle-p a:hover {
@@ -1102,16 +1104,6 @@ header ul li {
     background-color: #fffaf8;
     grid-row: 4/5;
     height: 20px;
-  }
-
-  .f-4 p {
-    font-size: 13px;
-    color: #897e7c;
-  }
-
-  .f-4 a {
-    text-decoration: none;
-    color: #897e7c;
   }
 
   .l1-h4 {
