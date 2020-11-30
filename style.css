@@ -1,0 +1,1495 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************  GLOBAL VARIABLES  **********************/
+.cp {
+  cursor: pointer;
+}
+
+body {
+  height: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: #f42;
+}
+
+.black {
+  color: black;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.section {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.article-preview::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/***************  END OF GLOBAL VARIABLES  ***********/
+header ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+/*************  NAVBAR  *****************/
+
+.navbar {
+  position: fixed;
+  z-index: 2;
+}
+
+.yellow-navbar a {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* BLACK NAVBAR */
+.black-navbar {
+  height: 32px;
+  background-color: black;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.black-navbar ul {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.black-navbar ul li {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-right: 12px;
+}
+
+.black-navbar ul li a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.arrow {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 50%;
+  height: 22px;
+}
+
+.black-navbar ul .nav-news {
+  color: white;
+  font-weight: bold;
+}
+
+/* WHITE NAVBAR */
+.white-navbar {
+  height: 50px;
+  background-color: white;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.white-navbar ul {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.white-navbar ul li {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-right: 17px;
+}
+
+.right-nav ul .countdown {
+  color: red;
+}
+
+.white-navbar ul li a {
+  color: #aaa;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.white-nav-logo {
+  height: 10px;
+}
+
+.right-nav ul .tickets-btn {
+  background-color: #0cc;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* YELLOW NAVBAR */
+.yellow-navbar {
+  height: 32px;
+  background-color: #fd3;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    margin-top: -82px;
+  }
+
+  .black-navbar {
+    display: none;
+  }
+
+  .sm-hid {
+    display: none;
+  }
+
+  .right-nav {
+    width: 80%;
+  }
+
+  .right-nav ul {
+    float: right;
+  }
+
+  .yellow-navbar {
+    justify-content: center;
+  }
+
+  .yellow-navbar a {
+    text-align: center;
+  }
+
+  .sm-logo {
+    width: 20%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 751px) {
+  .m-hid {
+    display: none;
+  }
+
+  .m-logo {
+    height: 82px;
+  }
+
+  .navbar {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .lg-hid {
+    display: none;
+  }
+
+  .white-navbar .fa-bars {
+    display: none;
+  }
+
+  .navbar {
+    margin-top: -114px;
+  }
+}
+
+/** NEW ARTICLE **/
+@media screen and (min-width: 1024px) {
+  .section-2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1180px;
+    min-width: 900px;
+  }
+
+  .grid-article-2 {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .div-g-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .div-g-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .div-g-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .div-g-4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+
+  .div-g-5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .div-g-6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .div-g-7 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .div-g-8 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .slike {
+    width: 100%;
+    height: 150px;
+  }
+
+  .main {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .main-little {
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-top: 10px;
+  }
+
+  .article-1-grid {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-top: 114px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-grid-1-date {
+    position: absolute;
+    top: 14%;
+    margin-left: -15px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .div-little-text {
+    margin: 10px 10px;
+  }
+
+  .litlle-p {
+    color: #9a9a9a;
+    margin: 20px 10px;
+  }
+
+  .litlle-p a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .div-grid-3-artist a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .f-4 p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897e7c;
+  }
+
+  .litlle-p a:hover {
+    color: white;
+  }
+
+  .div-grid-1 {
+    grid-column: 1/3;
+    grid-row: 1/-1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-auto-rows: 1fr;
+  }
+
+  .main0title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 10px;
+  }
+
+  .div-grid-2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    grid-auto-rows: 1fr;
+  }
+
+  .div-grid-2-p p {
+    font-size: 25px;
+    margin: 10px 10px;
+    font-weight: bold;
+  }
+
+  .div-grid-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-auto-rows: 1fr;
+  }
+
+  .div-grid-2-p {
+    margin: 5px 2px;
+  }
+
+  .div-grid-3-p {
+    color: white;
+    margin: 10px 10px;
+  }
+
+  .grid-3-p {
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+
+  .div-grid-3-artist {
+    color: #9a9a9a;
+    font-size: 15px;
+    margin: 10px 10px;
+  }
+
+  .div-grid-3-artist a:hover {
+    color: white;
+  }
+
+  .l-h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #f00;
+  }
+
+  .l-h4:hover {
+    color: black;
+  }
+
+  .latest-funding {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 10% auto;
+  }
+
+  .funding-1 {
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 1/2;
+  }
+
+  .funding-2 {
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 2/3;
+  }
+
+  .funding-3 {
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 3/4;
+  }
+
+  .funding-4 {
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 4/5;
+  }
+
+  .plus {
+    grid-row: 1/2;
+    height: 100px;
+  }
+
+  .f-1 {
+    background-color: #f42;
+    height: 40%;
+  }
+
+  .f-1 p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .f-2 {
+    background-color: #ffebe7;
+    grid-row: 2/3;
+    text-align: center;
+    height: 60%;
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-3 {
+    background-color: #fffaf8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #ffcdc2;
+  }
+
+  .f-3 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 {
+    background-color: #fffaf8;
+    grid-row: 4/5;
+  }
+
+  .jaja {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .l1-div {
+    width: 87%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+
+  .l1-div p {
+    float: right;
+    color: #f00;
+    padding-top: 10px;
+  }
+
+  .l1-h4 {
+    float: left;
+    color: #f00;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  .article-1-grid {
+    max-width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-top: 100px;
+  }
+
+  .div-grid-1-date {
+    position: absolute;
+    top: 14%;
+    margin-left: -15px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .div-little-text {
+    margin: 10px 10px;
+  }
+
+  .litlle-p {
+    color: #9a9a9a;
+  }
+
+  .litlle-p a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #c6c4c4;
+  }
+
+  .litlle-p a:hover {
+    color: white;
+  }
+
+  .div-grid-1 {
+    grid-column: 1/3;
+    grid-row: 1/-1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-auto-rows: 1fr;
+  }
+
+  .main0title {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .div-grid-2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    grid-auto-rows: 1fr;
+  }
+
+  .div-grid-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-auto-rows: 1fr;
+  }
+
+  .div-grid-2-p {
+    margin: 5px 2px;
+    color: white;
+  }
+
+  .div-grid-3-container {
+    color: white;
+    font-size: 25px;
+  }
+
+  .low {
+    color: white;
+  }
+
+  .div-grid-3-artist {
+    color: #9a9a9a;
+  }
+
+  .div-grid-3-artist a:hover {
+    color: white;
+  }
+
+  .section-2 {
+    margin: 40px 10px;
+  }
+
+  .grid-article-2 {
+    margin: 60px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+
+  .div-g-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .div-g-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .div-g-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .div-g-4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .div-g-5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .div-g-6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .div-g-7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .div-g-8 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .slike {
+    width: 200px;
+    height: 100px;
+  }
+
+  .main {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .main-little {
+    font-size: 9px;
+    color: #9a9a9a;
+    margin-top: 5px;
+  }
+
+  .l-h4 {
+    margin: 10px 45px;
+    color: #f00;
+    font-size: 20px;
+  }
+
+  .l-h4:hover {
+    color: black;
+  }
+
+  .l1-h4 {
+    color: #f00;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .l1-div p {
+    color: #f00;
+    font-size: 15px;
+    margin: 15px 50px;
+  }
+
+  .f-1 p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-3 p {
+    font-size: 11px;
+    color: #897e7c;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .f-4 p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #897e7c;
+  }
+
+  .l1-div p:hover {
+    color: black;
+  }
+
+  .l1-h4:hover {
+    color: black;
+  }
+
+  .latest-funding {
+    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto 50px;
+  }
+
+  .funding-4 {
+    display: none;
+  }
+
+  .plus {
+    grid-row: 1/2;
+    height: 65px;
+    overflow: auto;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .f-1 {
+    background-color: #f42;
+    height: 25px;
+  }
+
+  .f-2 {
+    background-color: #ffebe7;
+    grid-row: 2/3;
+    text-align: center;
+    height: 55px;
+  }
+
+  .f-3 {
+    background-color: #fffaf8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #ffcdc2;
+  }
+
+  .f-4 {
+    background-color: #fffaf8;
+    grid-row: 4/5;
+  }
+
+  .funding-1 {
+    width: 260px;
+    height: 260px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 1/2;
+    border: none;
+  }
+
+  .funding-2 {
+    width: 260px;
+    height: 260px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 2/3;
+    border: none;
+  }
+
+  .funding-3 {
+    width: 260px;
+    height: 260px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-column: 3/4;
+    border: none;
+  }
+
+  .jaja {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .article-1-grid {
+    height: 920px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+  }
+
+  .div-grid-1 {
+    flex: 1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-2020-09-07T164010.433-796x417.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 5px 5px;
+  }
+
+  .div-grid-1-date {
+    display: none;
+  }
+
+  .div-little-text {
+    margin-left: 10px;
+  }
+
+  .main0title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .litlle-p {
+    color: #9a9a9a;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .litlle-p a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .div-grid-3-artist a {
+    color: #9a9a9a;
+    text-decoration: none;
+  }
+
+  .f-4 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 a {
+    text-decoration: none;
+    color: #897e7c;
+  }
+
+  .litlle-p a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .div-grid-2 {
+    flex: 1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+  }
+
+  .div-grid-2-p {
+    margin: 10px 10px;
+    font-weight: bold;
+  }
+
+  .div-grid-3 {
+    flex: 1;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/denmark-money-evs-cost-taxes-subsidy-car-government-future-796x448.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px 5px;
+  }
+
+  .div-grid-3-p {
+    margin: 5px 10px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .div-grid-3-container {
+    margin: 10px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .div-grid-3-artist p {
+    color: #9a9a9a;
+    font-size: 15px;
+  }
+
+  .div-grid-3-artist a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .grid-article-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+
+  .main {
+    margin: 10px 10px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .main-little {
+    margin: 10px 10px;
+    color: #9a9a9a;
+  }
+
+  .l-h4 {
+    text-align: left;
+    margin: 20px 25px;
+    color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .slike {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px;
+  }
+
+  .latest-funding {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin: 20px 30px;
+  }
+
+  .funding-1 {
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-row: 1/2;
+  }
+
+  .funding-2 {
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-row: 2/3;
+  }
+
+  .funding-3 {
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-row: 3/4;
+  }
+
+  .funding-4 {
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 35% 10% 30%;
+    grid-row: 4/5;
+  }
+
+  .jaja {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 20px 20px;
+  }
+
+  .plus {
+    grid-row: 1/2;
+  }
+
+  .f-1 {
+    background-color: #f42;
+    height: 40%;
+  }
+
+  .f-1 p {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 100px;
+    padding-top: 20px;
+  }
+
+  .f-2 {
+    background-color: #ffebe7;
+    grid-row: 2/3;
+    text-align: left;
+    height: 60%;
+  }
+
+  h3 {
+    margin-left: 100px;
+  }
+
+  .f-2 p {
+    font-size: 13px;
+    color: #897e7c;
+    margin-left: 100px;
+  }
+
+  .f-3 {
+    background-color: #fffaf8;
+    grid-row: 3/4;
+    text-align: left;
+    border-bottom: 1px solid #ffcdc2;
+    height: 60px;
+  }
+
+  .f-3 p {
+    font-size: 13px;
+    color: #897e7c;
+  }
+
+  .f-4 {
+    background-color: #fffaf8;
+    grid-row: 4/5;
+    height: 20px;
+  }
+
+  .l1-h4 {
+    color: #f00;
+    margin: 10px 20px;
+  }
+
+  .l1-div p {
+    color: #f00;
+    margin: 10px 20px;
+  }
+}
+
+/***************  SECTIONS  ***************/
+.article-preview {
+  position: relative;
+}
+
+.most-popular {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 7px;
+}
+
+.section header {
+  z-index: 1;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.latest {
+  background-color: rgb(233, 211, 204);
+  position: relative;
+  height: 96px;
+}
+
+.latest-txt {
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.latest-txt h5 {
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+.latest-img {
+  position: absolute;
+  right: 0;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.section-headlines ul li .h4-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: rgba(8, 8, 8, 0.164) solid 1px;
+}
+
+.section-headlines ul li .h4-div a {
+  color: #555;
+  font-weight: 100;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.bullet {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .all-sections-container {
+    max-width: 1352px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sections-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .sections-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+
+  .last-section-container {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section .article-preview img {
+    width: 100%;
+  }
+
+  .sections-container {
+    display: block;
+  }
+}
+
+/*******************  LATEST DEALS  **********************/
+.latest-deals {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 35px;
+}
+
+.latest-deals header {
+  justify-content: space-between;
+}
+
+.latest-deals header .all-deals {
+  align-self: flex-end;
+}
+
+.old {
+  color: #aaa;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.new {
+  color: #555;
+}
+
+.deal {
+  margin-top: 13px;
+}
+
+.deal-info h4 {
+  margin-bottom: 7px;
+}
+
+@media screen and (min-width: 1024px) {
+  .lates-deals-container {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .latest-deals {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .first-row-deals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .first-row-deals .li-div-n {
+    width: 23%;
+  }
+
+  .second-row-deals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .second-row-deals .li-div-n {
+    width: 23%;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 750px) {
+  .latest-deals {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .first-row-deals .li-div-n {
+    width: 32%;
+  }
+
+  .second-row-deals .li-div-n {
+    width: 32%;
+  }
+
+  .third-row-deals .li-div-n {
+    width: 48.5%;
+  }
+
+  .first-row-deals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .second-row-deals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .third-row-deals {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 300px) {
+  .latest-deals {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .deal img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+
+  .deal a {
+    font-size: 14px;
+  }
+
+  .deal-info {
+    margin: 10px;
+  }
+
+  .old {
+    font-size: 12px;
+  }
+
+  .new {
+    font-size: 14px;
+  }
+
+  .second-row-deals {
+    display: block;
+  }
+
+  .first-row-deals {
+    display: block;
+  }
+
+  .first-row-deals li {
+    width: 100%;
+  }
+
+  .second-row-deals li {
+    width: 100%;
+  }
+}
+
+/************  FOOTER  ****************/
+.footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.social {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social ul {
+  margin-top: 25px;
+}
+
+.footer-links {
+  height: 160px;
+  background-color: #131313;
+}
+
+.icon {
+  color: white;
+  font-size: 125%;
+  margin-left: 20px;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.links {
+  justify-content: center;
+}
+
+.links ul li {
+  color: #aaa;
+  margin-left: 15px;
+  margin-top: 17px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 13px;
+}
+
+.footer-legal {
+  background-color: black;
+  height: 100px;
+  overflow: hidden;
+}
+
+.footer-logo {
+  height: 10px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.legal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+}
+
+.legal-txt {
+  justify-content: center;
+  margin: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .icon {
+    font-size: 100%;
+    padding: 15px;
+    margin-left: 10px;
+  }
+}
